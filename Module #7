@@ -1,0 +1,12 @@
+data("mtcars")
+head (mtcars, 6)
+list(mtcars, 6)
+isS4(mtcars)
+
+
+# Creating S3 
+dataS3 = list(name = “JOE”, salary=55000, union = T)
+
+# Creating S4
+dataS4 <- new("student", name="Jamie", age=22, GPA=3.0)
+
